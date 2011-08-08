@@ -1,0 +1,307 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background-color:#F3F3F3;
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	word-spacing: 1.5px;
+	line-height: 16px;
+
+/**	background: url(Images/background_grey2.png) repeat-y;	**/
+
+}
+
+a:link {
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	color: #d670c7;
+
+}
+
+a:visited {
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	color: #d670c7;
+
+}
+
+a:hover {
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 12px;
+	margin: 0px;
+	color: #be5091;
+
+}
+
+
+#page-frame {
+	width: 1000px;
+	margin: 0 auto 0 auto;
+	background: #FFF;
+	top: 0px;
+	bottom: 0px;
+
+}
+
+
+
+#content-container {
+	position:relative;
+	overflow:hidden;
+	margin:0 auto;
+	width: 850px;
+	z-index:1;
+
+
+
+}
+
+
+.left-column {
+	width: 550px;
+	float: left;
+	display: inline-block;
+	z-index: 4;
+/**	background:url(Images/border_left.png) repeat-y left #FFF; **/
+}
+
+.right-column {
+	width: 250px;
+	position: relative;
+	padding: 35px 20px;
+	margin: 0 auto;
+	float:right; 
+	min-height: 700px;
+/**	background:url(Images/border_right.png) repeat-y right #FFF; **/
+}
+
+div {
+	display:block;
+}
+
+.mypic {
+	position:relative;
+	padding: 35px 20px 0px 20px;
+}
+
+.menu_bar {
+	position:fixed;
+	top:0px;
+	height: 49px;
+	background:url(Images/topbar_bg.png);
+	width: 100%;
+	z-index:10000;
+}
+
+
+
+.menu_content {
+	width:850px;
+	margin: 0px auto 0px auto;
+	padding: 10px 0px 0px 0px;
+}
+
+
+
+.twitterbox {
+	margin: 0px 20px 20px 20px;
+}
+.connectbox {
+	margin: 10px 20px 0px 20px;
+	background:url(Images/connect.png) no-repeat;
+	width:205px;
+	height: 60px;
+	padding: 35px 5px 0px 0px;
+
+}
+
+
+.header_bar {
+	position:relative;
+	margin: 0px;
+	padding: 20px 0px 0px 0px;
+}
+
+#content {
+	position:relative;
+	width:100%;
+	min-height: 800px;	
+	padding: 35px 0px 0px 0px;
+}
+
+#copywrite {
+	width: 655px;
+	margin: 0px auto 0px auto;
+}
+
+h1 {
+	font-family: "Century Gothic";
+	color:#DC5E97;
+	font-weight:300;
+	margin-bottom: 5px;
+	margin-top: 25px;
+}
+
+h2 {
+	font-family: "Century Gothic";
+	color:#6d3d53;
+	font-weight:200;
+	margin-bottom: 5px;
+	margin-top: 25px;
+}
+
+
+
+
+h3 { 
+	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	color:#999;
+	font-weight:100;
+	margin-bottom: 6px;
+	margin-top: 0px;
+}
+
+
+
+a#home_button {
+	display: inline-block;
+	height:21px;
+	z-index:999;
+	width: 58px;
+	background: url(Images/home.png);
+	background-position: 0 0;
+	margin: 0 10px auto 30px;
+	
+}
+
+
+a#home_button:hover {
+	background-position: 0 -21px;
+}    
+
+a#portfolio_button {
+	display: inline-block;
+	height:21px;
+	z-index:999;
+	width: 77px;
+	background: url(Images/portfolio.png);
+	background-position: 0 0;
+	margin: 0 10px auto 10px;
+	
+}
+
+
+a#portfolio_button:hover {
+	background-position: 0 -21px;
+}    
+
+a#resume_button {
+	display: inline-block;
+	height:21px;
+	z-index:999;
+	width: 77px;
+	background: url(Images/resume.png);
+	background-position: 0 0;
+	margin: 0 10px auto 10px;	
+}
+
+
+a#resume_button:hover {
+	background-position: 0 -21px;
+}    
+
+a#work_button {
+	display: inline-block;
+	height:17px;
+	z-index:999;
+	width: 36px;
+	background: url(Images/work.png);
+	background-position: 0 0;
+	margin: 0 0 auto -10;	
+}
+
+
+a#work_button:hover {
+	background-position: 0 -17px;
+}  
+
+a#leadership_button {
+	display: inline-block;
+	height:19px;
+	z-index:999;
+	width: 70px;
+	background: url(Images/leadership.png);
+	background-position: 0 2;
+	margin: 0 0 auto 0;	
+}
+
+
+a#leadership_button:hover {
+	background-position: 0 -17px;
+}  
+
+a#education_button {
+	display: inline-block;
+	height:17px;
+	z-index:999;
+	width: 66px;
+	background: url(Images/education.png);
+	background-position: 0 0;
+	margin: 0 0 auto 0;	
+}
+
+
+a#education_button:hover {
+	background-position: 0 -17px;
+}  
+
+a#skills_button {
+	display: inline-block;
+	height:17px;
+	z-index:999;
+	width: 32px;
+	background: url(Images/skills.png);
+	background-position: 0 0;
+	margin: 0 0 auto 0;	
+}
+
+
+a#skills_button:hover {
+	background-position: 0 -17px;
+}  
+  
+
+a#blog_button {
+	display: inline-block;
+	height:25px;
+	z-index:999;
+	width: 43px;
+	background: url(Images/blog.png);
+	background-position: 0 4;
+	margin: 0px 10px auto 10px;	
+}
+
+
+a#blog_button:hover {
+	background-position: 0 -21px;
+} 
+   
+a#title_links {
+	font-family: "Century Gothic";
+	color:#6d3d53;
+	font-size:18px;
+	margin-bottom: 20px;
+	margin-top: 25px;
+}
+a#title_links:hover {
+	font-family: "Century Gothic";
+	color:#a75f7e;
+	font-size:18px;
+	margin-bottom: 5px;
+	margin-top: 25px;
+}
