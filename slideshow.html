@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+
+<link rel="stylesheet" type="text/css" href="bx_styles/bx_styles.css" />
+
+<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+<script src="jquery.bxSlider.min.js" type="text/javascript"></script>
+
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+<script>
+		function goToByScroll(id){
+     			$('html,body').animate({scrollTop: $("#"+id).offset().top},'slow');
+		}
+</script>
+
+<script type="text/javascript">
+    $(document).ready(function(){
+        $('#slider1').bxSlider({
+ 			infiniteLoop: true,
+            auto: true,
+            pager: true,  
+          
+        });
+    });
+</script>
+
+</head>
+
+<body>
+<div id="titlebar">
+
+
+
+<div id="logo"> <img src="slideimg/logo.png" /> </div>
+<div id="socialmedia"> <img src="slideimg/twitter.png" /><img src="slideimg/fb.png" /></div>
+
+</div>
+
+
+<div id="actionbox"><a id="actionbutton" href="#"></a></div>
+
+<div class="bx-wrapper" style="width:1200px; position:relative;">
+
+<div id="mediabar">
+
+
+<ul id="slider1" style="width: 999999px; position: relative; " >
+
+	<a href="javascript:void(0)" onclick="goToByScroll('bottombox')"><li style="width: 1200px; float: left; ">					
+						<div id="test1"> <div id="info"> <img src="slideimg/info1.png" /></div> </div>					
+						
+						<div class="clear"></div>
+	</li></a>
+	
+    <li style="width: 500px; float: left; " >					
+						<div id="test2"> test test </div>					
+						
+                        <div class="clear"></div>					
+	</li>
+    
+	<li style="width: 960px; float: left; " >					
+						<div id="test3"> test test </div>					
+						
+                        	<div class="clear"></div>		
+	</li>
+    
+    
+	</ul>
+
+</div>
+    
+</div>
+
+<div id="bottombox"> hello testest</div>
+
+
+
+</body>
+</html>

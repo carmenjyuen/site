@@ -1,0 +1,1 @@
+This site was made by Carmen J. Yuen for the purpose of showing her portfolio, resume, and blog. Site's content was designed and built by Carmen J. Yuen.

@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+background-image: url(bubble4.png), url(bubble3.png), url(bubble bg_1.jpg);
+background-repeat: repeat-x;
+background-position: 150% top, 40% top, 20% top;
+background-attachment: scroll;
+background-color: #000000;
+font: 15px/19px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+color: #333;
+padding-top: 95px;
+}

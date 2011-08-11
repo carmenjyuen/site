@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+
+#bottombox {
+	position:relative;
+	left:50px;
+	top:900px;
+	z-index: 10;
+}
+
+
+#titlebar {
+	position: relative;
+	background-color: #45235c;
+	top: 40px;
+	height: 60px;
+	
+}
+
+#socialmedia {
+	position:absolute;
+	left: 85%;
+	top: 6px;
+}
+
+#logo {
+	position:absolute;
+	left: 7%;
+	top: 6px;
+}
+
+#info {
+	position:relative;
+	left:568px;
+	top:21px;
+	z-index: 10;
+}
+
+
+
+#actionbox {
+	position:absolute;
+	left:840px;
+	top:370px;
+	z-index: 10;
+}
+
+a#actionbutton {
+	display: block;
+	height:50px;
+	z-index:999;
+	width: 255px;
+	background: url(slideimg/actionbutton.png);
+	background-position: 0 0;
+	margin: 0 auto;
+}
+
+a#actionbutton:hover {
+	background-position: 0 -50px;
+}
+
+body { 
+	font:  15px/1.2em "Helvetica Neue", Helvetica, Arial, Geneva, sans-serif;
+	color: #000000;
+	background-color: #FFFFF;
+	margin: 0px; 
+	padding: 0px;
+	text-align: center; 
+
+	}
+
+#wrapper {
+    width:960px;
+	margin:0 auto;
+}
+
+.clear {
+    clear: both;
+}
+
+a {
+    text-decoration: none;
+    color: #e800da;
+}
+
+a img {
+    border: 0;
+}
+
+
+p {
+    padding-bottom: 15px;
+    line-height: 20px;
+}
+
+p.note {
+    /*font-weight: bold;*/
+}
+
+.no-pad {
+    padding-bottom: 5px;
+}
+
+ul {
+    margin-left: 50px;
+}
+
+li {
+    padding-bottom: 5px;
+    line-height: 16px;
+}
+
+/* SLIDER ---------------------------------- */
+
+#mediabar {
+		
+	position: absolute;
+ 	top: 80px;
+	left: 7%;
+	width: 600px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	padding-top: 0px;
+	text-align: left;
+	color:#000;
+	z-index: 9;
+	}
+	
+#test1 {
+	width: 1200px;
+	height: 300px;
+	background:url(slideimg/1.png);
+}
+
+#test2 {
+	width: 1200px;
+	height: 300px;
+	background:url(slideimg/2.png);
+}
+
+#test3 {
+	width: 1200px;
+	height: 300px;
+	background:url(slideimg/3.png);
+}
+
+#slider1 {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    overflow: hidden;
+    height: 300px;
+}
+
+#slider1 li {
+    padding: 0;
+    margin: 0;
+    zoom:1;
+}
+
+#slider1 img,
+#slider2 img {
+    float: left;
+    margin-right: 36px;
+    border: solid #666 0px;
+}
+
